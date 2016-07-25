@@ -1,0 +1,4 @@
+#set($project = $issue.project)
+#set($tracker = $issue.tracker)
+${H}${H}${H}${H} [${issue.name}](${baseUrl}${issue.urlLink})
+${H}new-issue ${H}${tracker.keyName}-${issue.id} reported by [${user.name}](${baseUrl}userdata/${user.id})

@@ -1,0 +1,10 @@
+#set($project = $issue.project)
+#set($tracker = $issue.tracker)
+${H}${H}${H}${H} [${issue.name}](${baseUrl}${issue.urlLink})
+${H}updated-issue ${H}${tracker.keyName}-${issue.id} updated by [${user.name}](${baseUrl}userdata/${user.id})
+
+|Field|Old|New|
+|-|-|-|
+#foreach($modification in $modifications)
+|${modification.field.name}|$!{modification.oldValue}|$!{modification.newValue}|
+#end
