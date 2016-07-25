@@ -12,7 +12,7 @@ upzip build.zip
 ## Configuration
 See and Edit your `my-applicationContext.xml` to create MattermostNotifier bean.
 
-* You have to set your mattermost incomming-url
+* You have to set your mattermost incoming-url
 * And you can specify username, icon and channel for mattermost-side
 * Also you can specify tracker, event and message templates
 
