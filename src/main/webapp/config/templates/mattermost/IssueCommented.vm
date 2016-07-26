@@ -1,6 +1,6 @@
 #set($tracker = $issue.tracker)
 ${H}${H}${H}${H} [${issue.name}](${baseUrl}${issue.urlLink})
-${H}new-comment ${H}${tracker.keyName}-${issue.id} commented by [${user.name}](${baseUrl}userdata/${user.id})
+${H}new-comment ${H}${tracker.keyName}-${issue.id} commented by [${user.name}](${baseUrl}/userdata/${user.id})
 
 #foreach($commentLine in $commentLines)
 > ${commentLine}
