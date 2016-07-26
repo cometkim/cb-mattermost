@@ -25,7 +25,7 @@
 
     <bean id="mattermostNotifier" class="kr.cometkim.codebeamer.client.MattermostNotifier" lazy-init="false">
         <!--Required-->
-        <property name="endpoint" value="http://chat.architectgroup.com/hooks/9kgkfxgzjjyq3ejrj5qjpuxb5y"></property>
+        <property name="endpoint" value="http://your-mattermost-server/hooks/xxxxxxxxxxxxxxxxxxxxxxxxxx"></property>
 
         <!--<property name="userName" value="codeBeamer"></property>-->
         <!--<property name="userIcon" value="http://your-server/icon.png"></property>-->
