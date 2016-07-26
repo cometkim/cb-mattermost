@@ -1,11 +1,13 @@
 # cb-mattermost
 See [codeBeamer](https://codebeamer.com/cb/project/CB) activity stream in your [Mattermost](https://www.mattermost.org/) channel
 
+![](https://raw.githubusercontent.com/CometKim/cb-mattermost/master/screenshot.png)
+
 ## Installation
 __WARNING__ : Backup your `my-applicationContext.xml` if you already have. 
 ```
 cd [CB_INSTALL]/tomcat/webapps/cb/
-wget https://github.com/CometKim/cb-mattermost/raw/master/build.zip
+wget https://raw.githubusercontent.com/CometKim/cb-mattermost/master/build.zip
 upzip build.zip
 ```
 
