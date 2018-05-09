@@ -1,4 +1,4 @@
-too tight. It will soon be replaced by a better implementation.
+⛔ DEPRECATED ⛔ No longer maintained
 
 # cb-mattermost
 See [codeBeamer](https://codebeamer.com/cb/project/CB) activity stream in your [Mattermost](https://www.mattermost.org/) channel
